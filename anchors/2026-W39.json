@@ -1,0 +1,38 @@
+{
+  "anchor_version": "ti-anchor-v1",
+  "anchor_key": "2026-W39",
+  "merkle_scheme": "rfc6962-sha256",
+  "head_pos": 4,
+  "head_hash": "c9be90436f32d0d6db79e955078d4deab29c94427f560f566e96aa1cea0d1950",
+  "merkle_root": "6d5c7e6fd8c460987d9d7d00bd72d10c93a88a2cf4a31c78c597377713dda26e",
+  "sealed_at": "2026-09-21T03:00:12.210Z",
+  "seal": {
+    "chain_pos": 5,
+    "scheme": "ti-seal-v1",
+    "subject_type": "anchor",
+    "subject_hash": "7ece4b36be6172852edebb54d68824422cd73c6f4a8aa6763a9a1b74364a06b6",
+    "payload": {
+      "event": "anchor.published",
+      "scheme": "ti-seal-v1",
+      "head_pos": 4,
+      "head_hash": "c9be90436f32d0d6db79e955078d4deab29c94427f560f566e96aa1cea0d1950",
+      "anchor_key": "2026-W39",
+      "merkle_root": "6d5c7e6fd8c460987d9d7d00bd72d10c93a88a2cf4a31c78c597377713dda26e",
+      "subject_hash": "7ece4b36be6172852edebb54d68824422cd73c6f4a8aa6763a9a1b74364a06b6",
+      "subject_type": "anchor",
+      "merkle_scheme": "rfc6962-sha256"
+    },
+    "payload_hash": "8443ee6cf6b3cbfc1ba02c696a3785d574bb8465f454dc3565b92f35165b6042",
+    "prev_hash": "c9be90436f32d0d6db79e955078d4deab29c94427f560f566e96aa1cea0d1950",
+    "entry_hash": "ddc72eeaa3f0680e19c601a58e050017786e1b2fd011f167ee1f8aad839cd7a8",
+    "sig": "7K0iMc0yvle_zpJrdECIfDOAwUDMrzVSPR4f0hDsZA8WjDcmlVaL7gCBSsZMUbgCsSrVHP9FhN5pdR2tnyORvQ",
+    "key_alias": "h2a-issuer-v1"
+  },
+  "entry_hashes": [
+    "1e4e9af720c5046a1f039b75202af7cd96b79fb6e7a6238911568973959a15a0",
+    "7db6ec54aec51ff6ab5a252a3f196469995eb40fe291cd06295583044be37d95",
+    "6f112b940ec5fdb677a1fd49fb4d6c90f9a4ee6512888567091059bfa9c21ad5",
+    "3305ced5f3416fe2f24a3e5b4c2bb63251ddb56095953fdf4853a08fe51d89ba",
+    "c9be90436f32d0d6db79e955078d4deab29c94427f560f566e96aa1cea0d1950"
+  ]
+}
